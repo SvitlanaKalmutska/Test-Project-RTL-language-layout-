@@ -1,0 +1,498 @@
+@media (max-width: 1330px) {
+  .wrapper .services-page .icons {
+    flex-direction: column;
+  }
+
+  .wrapper .services-page .icons p {
+    display: none;
+  }
+
+  .wrapper .services-page .icons {
+    right: -88px;
+  }
+
+  .wrapper .services-page .icons .pencil {
+    margin-bottom: 10px;
+    margin-right: 7px;
+  }
+
+  .wrapper .services-page .table-wrepper {
+    margin-top: -119px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .wrapper .services-page .services table {
+    display: none;
+  }
+
+  .wrapper .services-page .table-adaptive {
+    display: block;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 1220px) {
+  .wrapper .services-page .services table {
+    display: none;
+  }
+
+  .wrapper .services-page .icons {
+    display: none;
+  }
+
+  .wrapper .services-page .services-search {
+    margin-bottom: 52px;
+  }
+
+  .wrapper .services-page .table-wrepper {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .services-page .services {
+    padding-bottom: 50px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-top {
+    padding: 15px 144px 13px 98px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-btns .icon-write {
+    margin-left: 42px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main {
+    padding-right: 100px;
+    padding-left: 90px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main .data:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main .left__sent {
+    font-size: 24px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main .title {
+    font-size: 22px;
+    padding-bottom: 7px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main .info {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .wrapper .authorization-top__title {
+    font-size: 40px;
+  }
+
+  .wrapper .authorization-page .authorization-form__input {
+    width: 427px;
+  }
+
+  .wrapper .authorization-page .authorization-form__lable {
+    padding-right: 27%;
+  }
+
+  .wrapper .authorization-page .authorization-form__btn {
+    width: 240px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 840px) {
+  .wrapper .authorization-page .authorization-form__lable {
+    padding-right: 24%;
+  }
+
+  .wrapper .services-page .services-search__items-arow {
+    padding-right: 11px;
+  }
+
+  .wrapper .services-page .services-search__items {
+    font-size: 20px;
+  }
+
+  .wrapper .services-page .services .top-btn {
+    font-size: 24px;
+  }
+
+  .wrapper .services-page .services-search__btn img {
+    padding-right: 40%;
+  }
+}
+
+@media (max-width: 760px) {
+  .wrapper .authorization-form__input.authorization-form__input.cross {
+    margin-right: 7%;
+  }
+}
+
+@media (max-width: 650px) {
+  .wrapper .authorization-page .header-top {
+    height: 80px;
+  }
+
+  .wrapper .authorization-page .header-bottom {
+    height: 51px;
+  }
+
+  .wrapper .authorization-page .authorization-top {
+    padding-top: 16px;
+    margin-bottom: 65px;
+  }
+
+  .wrapper .authorization-top__title {
+    font-size: 36px;
+  }
+
+  .wrapper .authorization-page .authorization-form::before {
+    bottom: 65px;
+  }
+
+  .wrapper .authorization-page .authorization-form__text {
+    padding: 0 100px;
+    line-height: 30px;
+  }
+
+  .wrapper .authorization-page .authorization-form__lable {
+    padding-right: 14%;
+  }
+
+  .wrapper .authorization-page .authorization-form__btn {
+    width: 180px;
+    height: 50px;
+  }
+
+  .wrapper .authorization-page .authorization {
+    background: url(../images/table-page_bg.png) bottom / cover no-repeat !important;
+  }
+
+  .wrapper .header-top {
+    height: 80px;
+  }
+
+  .wrapper .services-page .services table {
+    display: none;
+  }
+
+  .wrapper .services-page .icons {
+    display: none;
+  }
+
+  .services-page .services {
+    padding-bottom: 30px;
+  }
+
+  .wrapper .services-page .services-top {
+    padding-top: 27px;
+  }
+
+  .wrapper .services-page .services-top__icon {
+    display: none;
+  }
+
+  .wrapper .services-page .services-top__recent-items {
+    margin-right: 0;
+  }
+
+  .wrapper .services-page .services .top-btn {
+    font-size: 22px;
+  }
+
+  .wrapper .services-page .services-search::before {
+    bottom: 5px;
+  }
+
+  .wrapper .services-page .services-top {
+    margin-bottom: 26px;
+  }
+
+  .wrapper .services-page .services-search {
+    margin-bottom: 52px;
+  }
+
+  .wrapper .services-page .services-search__items {
+    display: none;
+  }
+
+  .wrapper .services-page .services-search__search-button {
+    width: 72.5%;
+    height: 50px;
+  }
+
+  .wrapper .services-page .services-search__items-btn-plus {
+    display: flex;
+  }
+
+  .wrapper .services-page .table-wrepper {
+    margin-top: -57px;
+  }
+
+  .wrapper .services-page .services-search::before {
+    bottom: -28px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper .authorization-form__item button {
+    top: -54px;
+    right: 221px;
+  }
+}
+
+@media (max-width: 580px) {
+  .wrapper .authorization-form__input.authorization-form__input.cross {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .wrapper .authorization-page .header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .wrapper .authorization-page .header-top__data p:first-child,
+  .wrapper .authorization-page .header-top__data p:nth-child(2) {
+    display: none;
+  }
+
+  .wrapper .authorization-page .header-top__data span {
+    display: inline;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  .wrapper .authorization-page .header-top__data-orange {
+    color: #ff6633;
+    padding-top: 4px;
+  }
+
+  .wrapper .authorization-page .header-top {
+    height: 63px;
+    border-top: 2px solid #eeeeee;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .wrapper .authorization-page .header-bottom {
+    display: none;
+  }
+
+  .wrapper .authorization-page .header-top__icon {
+    padding: 5px 8px 1px 8px;
+    margin: 0px 16px 0px 11px;
+  }
+
+  .wrapper .authorization-page .header-top__icon img {
+    width: 19px;
+    height: 23px;
+  }
+
+  .wrapper .authorization-page .authorization-icon {
+    width: 39px;
+    height: 39px;
+    padding-left: 7px;
+  }
+
+  .wrapper .authorization-page .authorization-icon img {
+    width: 39px;
+    height: 39px;
+  }
+
+  .wrapper .authorization-top__title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .wrapper .authorization-page .authorization-form::before {
+    height: 3px;
+    bottom: 48px;
+  }
+
+  .wrapper .authorization-page .authorization-top {
+    margin-bottom: 48px;
+  }
+
+  .wrapper .authorization-page .authorization-form__text {
+    display: none;
+  }
+
+  .wrapper .authorization-page .authorization-form__text-media {
+    display: block;
+    margin-bottom: 56px;
+    line-height: 1.3;
+  }
+
+  .wrapper .authorization-page .authorization-form__lable {
+    padding-right: 5%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .wrapper .authorization-page .authorization-form__input {
+    width: 82%;
+    height: 40px;
+  }
+
+  .wrapper .authorization-page .authorization-form__item {
+    margin: 0px 0 25px 0;
+  }
+
+  .wrapper .authorization-page .authorization-form__btn {
+    width: 32%;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .wrapper .authorization-page .authorization-form__buttons .button {
+    margin-top: 38px;
+  }
+
+  .wrapper .authorization-page .authorization-form__buttons {
+    margin-top: 57px;
+  }
+
+  .wrapper .authorization-page .authorization-form__btn-arow {
+    padding-right: 14px;
+    width: 13px;
+    height: 12px;
+  }
+
+  .wrapper .authorization-page .authorization-form::before {
+    bottom: 41px;
+  }
+
+  .wrapper .authorization-page .authorization {
+    background: url(../images/table-page_bg.png) 60% / cover no-repeat !important;
+  }
+
+  .wrapper .header-top {
+    height: 63px;
+    border-top: 2px solid #eeeeee;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .wrapper .header-top__icon {
+    padding: 7px 8px 3px 8px;
+    margin: 0px 16px 0px 11px;
+  }
+
+  .top__icon img {
+    width: 19px;
+    height: 23px;
+  }
+
+  .wrapper .header-top__data {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .wrapper .authorization-form__item button {
+    top: -42px;
+    right: 43%;
+    width: 30px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 475px) {
+  .wrapper .authorization-form__buttons .btn {
+    margin-bottom: 66px;
+  }
+
+  .wrapper .services-page .services .top-btn {
+    font-size: 18px;
+    height: 40px;
+  }
+
+  .wrapper .services-page .services-search__search-button {
+    width: 80%;
+    height: 40px;
+    margin-left: 17px;
+  }
+
+  .wrapper .services-page .services-search__btn img {
+    padding-right: 20%;
+    width: 19px;
+    height: 19px;
+  }
+
+  .wrapper .services-page .services-search__items-btn-plus {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .wrapper .services-page .services-search {
+    justify-content: space-between;
+  }
+
+  .wrapper .services-page .services-top__policy {
+    justify-content: flex-end !important;
+    padding-left: 5%;
+  }
+
+  .wrapper .services-page .icon-write,
+  .wrapper .services-page .icon-email {
+    width: 40px;
+    height: 40px;
+  }
+
+  .wrapper .authorization-page .authorization-form__input {
+    width: 72%;
+  }
+
+  .wrapper .authorization-form__item button {
+    right: 39%;
+  }
+}
+
+@media (max-width: 365px) {
+  .wrapper .authorization-page .authorization-form__btn {
+    margin-bottom: 65px;
+    margin-top: 10px;
+  }
+
+  .wrapper .authorization-top__icon {
+    display: none;
+  }
+
+  .wrapper .authorization-page .authorization-form__text-media {
+    margin-bottom: 40px;
+  }
+
+  .wrapper .authorization-page .authorization-form__item {
+    margin: 0px 0 45px 0;
+  }
+  .wrapper .services-page .table-adaptive__card-main {
+    font-size: 16px;
+    padding: 0px 15px 24px 11px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main .title {
+    font-size: 17px;
+  }
+
+  .wrapper .services-page .table-adaptive__card-main .info {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 340px) {
+  .wrapper .services-page .services .top-btn {
+    font-size: 14px;
+  }
+}

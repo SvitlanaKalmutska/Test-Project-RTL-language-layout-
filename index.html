@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <title>Test task (RTL layout)</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Arimo:regular,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section class="authorization-page">
+        <header class="header">
+          <div class="header-top">
+            <div class="header-top__icon">
+              <img src="images/user-green.png" alt="user icon" />
+            </div>
+            <div class="header-top__data">
+              <p>שם סוכן <strong>ישראל ישראלי</strong></p>
+              <p>מספר <strong>123456 </strong></p>
+              <span>
+                <div>שם הסוכן ישראל ישראלי</div>
+                <div>קולקטיב חברת חשמל</div>
+                <div class="header-top__data-orange">שלום, חיים משה</div>
+              </span>
+            </div>
+          </div>
+          <div class="header-bottom authorization-line">
+            שלום<strong>, חיים משה</strong>
+          </div>
+        </header>
+        <div
+          class="authorization"
+          style="
+            background: url(images/authorization-page_bg.png) bottom center /
+              cover no-repeat;
+          "
+        >
+          <div class="container">
+            <div class="authorization-top">
+              <div class="authorization-top__icon top-icon">
+                <img src="images/user-orange.png" alt="user main icon" />
+              </div>
+              <h1 class="authorization-top__title title">
+                כניסה למערכת - צפיה בהצעת המחיר
+              </h1>
+            </div>
+            <form action="#" class="authorization-form">
+              <div class="authorization-form__text">
+                הזן את קוד הכניסה, אם לא קיבלת קוד לחץ על שליחת קוד חדש
+              </div>
+              <div class="authorization-form__text-media">
+                לקבלת קוד הכניסה הזן את
+                <br />מספר הטלפון הנייד
+              </div>
+              <div class="authorization-form__item">
+                <lable for="formName" class="authorization-form__lable"
+                  >שם משתמש</lable
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="formName"
+                  class="authorization-form__input cross"
+                />
+                <button type="reset" class="authorization-form__input-reset">
+                  <img src="images/cross.png" alt="cross" />
+                </button>
+              </div>
+              <div class="authorization-form__item">
+                <lable for="formPassword" class="authorization-form__lable"
+                  >סיסמא</lable
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="formPassword"
+                  class="authorization-form__input"
+                />
+              </div>
+              <div class="authorization-form__buttons">
+                <button class="authorization-form__btn btn" type="submit">
+                  ביטול
+                </button>
+                <button class="authorization-form__btn btn" type="reset">
+                  כניסה<img
+                    class="authorization-form__btn-arow"
+                    src="images/arrow-white.png"
+                    alt="arrow"
+                  />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="services-page">
+        <header class="header">
+          <div class="header-top">
+            <div class="header-top__icon">
+              <img src="images/user-green.png" alt="user icon" />
+            </div>
+            <div class="header-top__data">
+              <p>שם סוכן <strong>ישראל ישראלי</strong></p>
+              <p>מספר <strong>123456 </strong></p>
+              <span>
+                <div>ישראל ישראלי</div>
+                <div>קולקטיב חברת חשמל</div>
+              </span>
+            </div>
+          </div>
+        </header>
+        <div
+          class="services"
+          style="
+            background: url(images/table-page_bg.png) bottom center / cover
+              no-repeat;
+          "
+        >
+          <div class="container">
+            <div class="services-top">
+              <div class="services-top__icon top-icon">
+                <img src="images/user-orange.png" alt="user main icon" />
+              </div>
+              <button type="button" class="services-top__recent-items top-btn">
+                הצעות אחרונות
+              </button>
+              <button type="button" class="services-top__policy top-btn">
+                פוליסות שהופקו
+              </button>
+            </div>
+            <div class="services-search">
+              <div class="services-search__search-button btn">
+                <input
+                  type="text"
+                  class="services-search__input"
+                  placeholder="חיפוש"
+                />
+                <button class="services-search__btn">
+                  <img src="images/search-svg.svg" alt="search" />
+                </button>
+              </div>
+              <a href="#" class="services-search__items btn"
+                >הצעה חדשה<img
+                  class="services-search__items-arow"
+                  src="images/arrow-white.png"
+                  alt="arrow"
+                />
+              </a>
+              <a class="services-search__items-btn-plus"
+                ><img src="images/plus.png" alt="plus button" class="plus-btn"
+              /></a>
+            </div>
+            <div class="table-wrepper">
+              <div class="icons">
+                <div class="pencil">
+                  <div class="icon-write"></div>
+                  <p>ההצעה עריכת</p>
+                </div>
+                <div class="letter">
+                  <div class="icon-email"></div>
+                  <p>ההצעה שליחת</p>
+                </div>
+              </div>
+              <table class="services-table">
+                <thead class="services-table__header">
+                  <tr class="head-row">
+                    <th class="services-table__header-cell">ענף</th>
+                    <th class="services-table__header-cell">מוצר</th>
+                    <th class="services-table__header-cell">שם מבוטח</th>
+                    <th class="services-table__header-cell">מס‘ רישוי</th>
+                    <th class="services-table__header-cell">תעודת זהות</th>
+                    <th class="services-table__header-cell">פתיחת ההצעה</th>
+                    <th class="services-table__header-cell">תחילת הביטוח</th>
+                    <th class="services-table__header-cell">מס‘ פוליסה</th>
+                    <th class="services-table__header-cell">נשלח ללקוח</th>
+                  </tr>
+                </thead>
+                <tbody class="services-table__body">
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-green.png" alt="green tick" />
+                    </td>
+                  </tr>
+                  <tr class="services-table__body-cell--active">
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-white.png" alt="white tick" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell"></td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-green.png" alt="green tick" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-green.png" alt="green tick" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-green.png" alt="green tick" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-green.png" alt="green tick" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell"></td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell"></td>
+                  </tr>
+                  <tr>
+                    <td class="services-table__body-cell">רכב</td>
+                    <td class="services-table__body-cell">שם המוצר</td>
+                    <td class="services-table__body-cell">יצחק בן אברהם</td>
+                    <td class="services-table__body-cell">12-345-67</td>
+                    <td class="services-table__body-cell">039894872</td>
+                    <td class="services-table__body-cell">12.10.2019</td>
+                    <td class="services-table__body-cell">04.04.2020</td>
+                    <td class="services-table__body-cell">123456789012</td>
+                    <td class="services-table__body-cell">
+                      <img src="images/tick-green.png" alt="green tick" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-adaptive">
+              <div class="table-adaptive__card">
+                <div class="table-adaptive__card-top">
+                  <p class="icon-car"></p>
+                  <div class="table-adaptive__card-btns">
+                    <p class="icon-write"></p>
+                    <p class="icon-email"></p>
+                  </div>
+                </div>
+                <div class="table-adaptive__card-main">
+                  <div class="right-column">
+                    <div class="right__first-data data">
+                      <p class="title">קולקטיב</p>
+                      <p class="info">שם הקולקטיב</p>
+                    </div>
+                    <div class="right__second-data data">
+                      <p class="title">שם מבוטח</p>
+                      <p class="info">יצחק בן אברהם</p>
+                    </div>
+                    <div class="right__third-data data">
+                      <p class="title">תעודת זהות</p>
+                      <p class="info">038974573</p>
+                    </div>
+                    <div class="right__fourth-data data">
+                      <p class="title">פתיחת הצעה</p>
+                      <p class="info">12.10.2019</p>
+                    </div>
+                    <div class="right__fifth-data data">
+                      <p class="title">פוליסה</p>
+                      <p class="info">123456789012</p>
+                    </div>
+                  </div>
+                  <div class="left-column">
+                    <div class="left__first-data data">
+                      <p class="title">מספר רישוי</p>
+                      <p class="info">12-345-67</p>
+                    </div>
+                    <div class="left__second-data data">
+                      <p class="title">תחילת ביטוח</p>
+                      <p class="info">04.04.2020</p>
+                    </div>
+                    <div class="left__sent">(נשלחה ללקוח)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
